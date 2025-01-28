@@ -1,0 +1,95 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+        background-color: black;
+        color: black; /* Pour changer la couleur du texte en blanc, afin qu'il soit lisible sur fond noir */
+    
+    
+}
+
+/* Style pour le titre */
+h1 {
+    color: #090a04;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+
+}
+/* Style pour le texte du jeu d'arcade */
+.arcade-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+/* Style pour le texte du jeu d'arcade */
+.arcade-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
+    animation: blink 1s infinite alternate, change-color 5s infinite;
+}
+
+/* Animation pour le clignotement */
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Animation pour le changement de couleur */
+@keyframes change-color {
+    0% { color: #fff; }
+    25% { color: #ff0000; }
+    50% { color: #00ff00; }
+    75% { color: #0000ff; }
+    100% { color: #fff; }
+}
+
+
+/* Style pour la grille de jeu */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(7, 65px); /* 7 colonnes de 60px chacune */
+    grid-template-rows: repeat(6, 65px); /* 6 lignes de 60px chacune */
+    gap: 4px; /* Espacement entre les cases */
+    margin: 170px ; /* Centrer la grille de jeu */
+    border: 2px solid #0e0bd0; /* Bordure autour de la grille */
+    background-color: #0000ff;
+    padding: 0%;
+    margin-bottom: 300px;
+}
+
+/* Style pour les cases de la grille */
+.cell {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #010104; /* Couleur de fond par défaut */
+    border: 1px solid #0832da; /* Bordure des cases */
+}
+
+/* Style pour les jetons */
+.token {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* Pour rendre les jetons circulaires */
+    box-sizing: border-box;
+}
+
+/* Style pour le jeton rouge */
+.red-token {
+    background-color: #ef1919; /* Rouge */
+}
+
+/* Style pour le jeton jaune */
+.yellow-token {
+    background-color: #ffdc00; /* Jaune */
+}

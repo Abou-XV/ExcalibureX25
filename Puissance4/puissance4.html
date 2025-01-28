@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puissance 4</title>
+    <h1 class="arcade-text">Puissance 4</h1>
+<p class="arcade-text">C'est à ton tour de jouer !</p>
+
+    <style>
+        /* Style pour le texte du jeu d'arcade */
+.arcade-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
+    animation: blink 0.0009s infinite alternate, change-color 0.4s infinite;
+}
+
+/* Animation pour le clignotement */
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Animation pour le changement de couleur */
+@keyframes change-color {
+    0% { color: #ffffff; }
+    25% { color: #e8f40c; }
+    50% { color: #ffbf00; }
+    75% { color: #7700ff; }
+    100% { color: #d60a0a; }
+}
+/* Ajoute du style CSS ici */
+    </style>
+</head>
+<body>
+    <h1>Code un puissance 4 qui va finir en GTA 4</h1>
+    <div id="game-board">
+        <!-- La grille de jeu sera générée ici -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
