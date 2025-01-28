@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felicita - Charcuterie et Fromages Corses</title>
+    <link rel="stylesheet" href="felicita.css" />
+    <link rel="stylesheet" href="index.js" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="logo">Felicita</div>
+        <ul class="menu">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#produits">Nos Produits</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="actualité">
+        <div class="carousel">
+          <div class="carousel-images">
+            <img
+              src="SRCimg/Afficher les photos récentes.jpeg"
+              alt="Actualité 1"
+            />
+            <h1>
+              Le père Noêl Corse qui Sourit avec le jeune pere noël de St Junien
+            </h1>
+            <img
+              src="SRCimg/93a18aba-15fa-4928-9245-0afba19922cc.JPG"
+              alt="Actualité 2"
+            />
+            <img
+              src="SRCimg/51fdf9e8-802f-450b-b9f3-9994691e61e4.JPG"
+              alt="Actualité 3"
+            />
+          </div>
+          <div class="carousel-buttons">
+            <button id="prevBtn">&lt;</button>
+            <button id="nextBtn">&gt;</button>
+          </div>
+        </div>
+        <h3>Retrouvez toutes nos actualités</h3>
+        <p>Vivez votre aventure Félicita avec nous !</p>
+      </div>
+
+      <div class="hero-text">
+        <h1>Felicita</h1>
+        <p>L'essence de la Corse dans chaque bouchée</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="accueil" class="intro">
+        <h2>Bienvenue chez Felicita</h2>
+        <p>
+          Découvrez le meilleur de la charcuterie et des fromages corses,
+          fabriqués avec passion et tradition.
+        </p>
+      </section>
+
+      <section id="produits" class="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+          <img src="SRCimg/felicita-logo.jpg" alt="Plateau de charcuterie" />
+          <h3>Charcuterie Corse</h3>
+          <p>Saucissons, coppa, lonzu… Le goût authentique de la Corse.</p>
+        </div>
+        <div class="produit">
+          <img
+            src="SRCimg/images:DALL·E_2024-12-12_16.22.09.webp"
+            alt="Plateau de fromages"
+          />
+          <h3>Fromages Corses</h3>
+          <p>Fromages artisanaux fabriqués avec des saveurs uniques.</p>
+        </div>
+      </section>
+
+      <section id="apropos" class="apropos">
+        <h2>À propos de Felicita</h2>
+        <p>
+          Felicita est une entreprise familiale dédiée à la promotion du
+          savoir-faire corse. Nos produits sont fabriqués localement avec des
+          ingrédients de la plus haute qualité.
+        </p>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email : contact@felicita-corse.com</p>
+        <p>Téléphone : +33 6 16 17 36 35</p>
+        <form>
+          <input type="text" name="nom" placeholder="Votre nom" required />
+          <input type="email" name="email" placeholder="Votre email" required />
+          <textarea
+            name="message"
+            placeholder="Votre message"
+            required
+          ></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 Felicita - Charcuterie et Fromages Corses. Tous droits
+        réservés.
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

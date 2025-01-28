@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../Felicita/src/images"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "images"
+  }
+}
